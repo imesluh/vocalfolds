@@ -12,11 +12,11 @@ this dataset and made it available to the public.
 
 ## The dataset
 
-<img src="https://github.com/imesluh/vocalfolds/raw/master/img/patient1/seq1/0006.png" alt="0006.png" style="width: 128px;"/>
-<img src="https://github.com/imesluh/vocalfolds/raw/master/img/patient1/seq2/0160.png" alt="0160.png" style="width: 128px;"/>
-<img src="https://github.com/imesluh/vocalfolds/raw/master/img/patient1/seq3/0202.png" alt="0202.png" style="width: 128px;"/>
-<img src="https://github.com/imesluh/vocalfolds/raw/master/img/patient2/seq7/0466.png" alt="0466.png" style="width: 128px;"/>
-<img src="https://github.com/imesluh/vocalfolds/raw/master/img/patient2/seq8/1124.png" alt="1124.png" style="width: 128px;"/>
+![0006.png](https://github.com/imesluh/vocalfolds/raw/master/img/patient1/seq1/0006.png =128x)
+![0160.png](https://github.com/imesluh/vocalfolds/raw/master/img/patient1/seq2/0160.png =128x)
+![0202.png](https://github.com/imesluh/vocalfolds/raw/master/img/patient1/seq3/0202.png =128x)
+![0466.png](https://github.com/imesluh/vocalfolds/raw/master/img/patient2/seq7/0466.png =128x)
+![1124.png](https://github.com/imesluh/vocalfolds/raw/master/img/patient2/seq8/1124.png =128x)
 
 The dataset consists of 5 sequences from 2 patients (seq1-seq3 from patient 1
 and seq7-seq8 from patient 2), containing 400 hand segmented in vivo colour
