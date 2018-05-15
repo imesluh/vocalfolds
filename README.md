@@ -12,6 +12,7 @@ this dataset and made it available to the public.
 
 ## The dataset
 
+<img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient1/seq1/0006.png" width="128">
 ![0006.png](https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient1/seq1/0006.png =128x)
 ![0160.png](https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient1/seq1/0006.png =128x)
 ![0202.png](https://github.com/imesluh/vocalfolds/raw/master/img/patient1/seq3/0202.png =128x)
