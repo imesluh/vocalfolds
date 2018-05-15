@@ -20,9 +20,9 @@ images of the larynx during two different resection interventions with a
 resolution of 512x512 pixels. For training a CNN for semantic segmentation, we
 split the dataset as follows:
 
-training set: Seq1 and Seq8 (218 images)
-validation set: Seq3 and first half of Seq7 (87 images)
-test set: Seq2 and second half of Seq7 (95 images)
+* training set: Seq1 and Seq8 (218 images)
+* validation set: Seq3 and first half of Seq7 (87 images)
+* test set: Seq2 and second half of Seq7 (95 images)
 
 The sequences have following characteristics:
 
