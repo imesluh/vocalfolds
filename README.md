@@ -2,11 +2,9 @@
 
 Max-Heinrich Laves, Jens Bicker, Lüder A. Kahrs, Tobias Ortmaier
 
-Automated segmentation of anatomical structures in medical
-image analysis is a key step in image and situs understanding for enabling
-assisting or autonomous intervention robots. Recent methods based on deep
-convolutional neural networks (CNN) have outperformed former heuristic methods.
-However, those methods were mostly evaluated on rigid, real-world environments.
+Automated segmentation of anatomical structures in medical image analysis is a prerequisite for autonomous diagnosis as well as various computer and robot aided interventions.
+Recent methods based on deep convolutional neural networks (CNN) have outperformed former heuristic methods.
+However, those methods were primarily evaluated on rigid, real-world environments.
 Since there are no suitable datasets of soft tissue environments, we created
 this dataset and made it available to the public.
 
@@ -14,15 +12,10 @@ this dataset and made it available to the public.
 
 <img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient1/seq1/0006.png" width="128"> <img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient1/seq2/0160.png" width="128"> <img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient1/seq3/0202.png" width="128"> <img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient2/seq7/0466.png" width="128"> <img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient2/seq8/1124.png" width="128">
 
-The dataset consists of 5 sequences from 2 patients (seq1-seq3 from patient 1
-and seq7-seq8 from patient 2), containing 400 hand segmented in vivo colour
+The dataset consists of 5 sequences from 2 patients (seq1-seq4 from patient 1
+and seq5-seq8 from patient 2), containing 536 hand segmented in vivo colour
 images of the larynx during two different resection interventions with a
-resolution of 512x512 pixels. For training a CNN for semantic segmentation, we
-split the dataset as follows:
-
-* training set: Seq1 and Seq8 (218 images)
-* validation set: Seq3 and first half of Seq7 (87 images)
-* test set: Seq2 and second half of Seq7 (95 images)
+resolution of 512x512 pixels.
 
 The sequences have following characteristics:
 
@@ -30,15 +23,14 @@ The sequences have following characteristics:
   rotation, scale, no instruments visible, without intubation
 * seq2: pre-op with clearly visible tumor, visible instruments, changes in
   translation and scale, with intubation
-* seq3: post-op with removed tumor, damaged tissue, changes in translation and
+* seq3-4: post-op with removed tumor, damaged tissue, changes in translation and
   scale, with intubation
-* seq7: pre-op with instruments manipulating and grasping the vocal folds,
+* seq5-7: pre-op with instruments manipulating and grasping the vocal folds,
   changes in translation and scale, with intubation
 * seq8: post-op with blood on vocal folds, instruments and surgical dressing,
   with intubation
 
-Ideally, we would like to use one patient for training and the other patient for
-validation/testing. However, not all classes were present at both patients. We
+Not all classes were present at both patients. We
 would like to adress this in future work by enlarging the dataset.
 
 ## Publication
