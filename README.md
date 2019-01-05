@@ -30,7 +30,7 @@ The sequences have following characteristics:
 * seq8: post-op with blood on vocal folds, instruments and surgical dressing,
   with intubation
 
-They are categorized in the 7 different classes *void*, *vocal folds*, *other tissue*, *glottal space*, *pathology*, *surgical tool* and *intubation* with indices {0, 1, 2, 3, 4, 5, 6}, respectively, which is represented by the gray values of the label maps
+They are categorized in the 7 different classes *void*, *vocal folds*, *other tissue*, *glottal space*, *pathology*, *surgical tool* and *intubation* with indices `{0, 1, 2, 3, 4, 5, 6}, respectively, which is represented by the gray values of the label maps
 Not all classes were present at both patients. We
 would like to adress this in future work by enlarging the dataset.
 
