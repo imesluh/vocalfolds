@@ -10,9 +10,9 @@ this dataset and made it available to the public.
 
 ## The dataset
 
-<img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient1/seq1/0006.png" width="128"> <img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient1/seq2/0160.png" width="128"> <img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient1/seq3/0202.png" width="128"> <img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient2/seq7/0466.png" width="128"> <img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/img/patient2/seq8/1124.png" width="128">
+<img src="https://raw.githubusercontent.com/imesluh/vocalfolds/master/dataset_description.png">
 
-The dataset consists of 5 sequences from 2 patients (seq1-seq4 from patient 1
+The dataset consists of 8 sequences from 2 patients (seq1-seq4 from patient 1
 and seq5-seq8 from patient 2), containing 536 hand segmented in vivo colour
 images of the larynx during two different resection interventions with a
 resolution of 512x512 pixels.
@@ -30,16 +30,16 @@ The sequences have following characteristics:
 * seq8: post-op with blood on vocal folds, instruments and surgical dressing,
   with intubation
 
+They are categorized in the 7 different classes *void*, *vocal folds*, *other tissue*, *glottal space*, *pathology*, *surgical tool* and *intubation* with indices {0, 1, 2, 3, 4, 5, 6}, respectively, which is represented by the gray values of the label maps
 Not all classes were present at both patients. We
 would like to adress this in future work by enlarging the dataset.
 
 ## Publication
 
-This work has been submitted for publication under the title "A Dataset of
+This work has been accepted for publication under the title "A Dataset of
 Laryngeal Endoscopic Images with Comparative Study on Convolution Neural Network
-Based Semantic Segmentation" in the [International Journal of Computer Assisted
-Radiology and Surgery](http://www.springer.com/medicine/radiology/journal/11548)
-. The review is still in progress.
+Based Semantic Segmentation" in [International Journal of Computer Assisted
+Radiology and Surgery](http://www.springer.com/medicine/radiology/journal/11548) ([arXiv:1807.06081](https://arxiv.org/abs/1807.06081)).
 
 ## Formal Consent
 
