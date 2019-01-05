@@ -55,6 +55,8 @@ comparable ethical standards.
 
 ## Contact
 
-Max-Heinrich Laves, laves@imes.uni-hannover.de
+Max-Heinrich Laves 
+[laves@imes.uni-hannover.de](mailto:laves@imes.uni-hannover.de) 
+[@MaxLaves](https://twitter.com/MaxLaves)
 
 Appelstr. 11A, 30167 Hannover, Germany
